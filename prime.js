@@ -1,6 +1,6 @@
 var number = 17;
 var factorial = 0;
-for (var i = 2; i <= number; i+= 2) {
+for (var i = 0; i < number; i++) {
   if (number % i == 0) {
     factorial++;
   }
